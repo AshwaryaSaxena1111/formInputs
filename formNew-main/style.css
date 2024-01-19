@@ -1,0 +1,57 @@
+.container{
+    width: 600px;
+    height: auto;
+    background-color: rgb(236, 236, 236);
+    padding: 5px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-image: url("imagee.jpg");
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#all1{
+    margin-left: 72px;
+    margin-bottom: 25px;
+}
+#all2{
+    margin-left: 74px;
+    margin-bottom: 25px;
+}
+#all3{
+    margin-left: 102px;
+    margin-bottom: 25px;
+}
+#all4{
+    margin-left: 85px;
+    margin-bottom: 25px;
+}
+#all5{
+    margin-left: 88px;
+    margin-bottom: 25px;
+}
+#all6{
+    margin-left: 44px;
+    margin-bottom: 25px;
+}
+#all7{
+    margin-left: 294px;
+    margin-bottom: 25px;
+}
+element.style {
+    margin-left: 80px;
+}
+#one{
+    margin: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+label{
+    margin-left: 150px;
+}

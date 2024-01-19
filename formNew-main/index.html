@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Forms New</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form name="myform" >
+            <div class="heading">
+            <h1>Registration Form</h1>
+            </div>
+            <label for="firstname" class="c1" >First name</label> 
+            <input type="text" class="one" id="all1" name="firstname" placeholder="First Name"> <br>
+            <span id="error1"></span>
+
+            <label for="lastname" class="c2">Last name</label> 
+            <input type="text" class="two" id="all2" name="lastname" placeholder="Last Name"> <br>
+            <span id="error2"></span>
+
+            <label for="email" class="c3">Email</label> 
+            <input type="email" class="three" id="all3" name="email" placeholder="Email"> <br>
+            <span id="error3"></span>
+
+            <label for="message" class="c4">Message</label> 
+            <input type="text" id="all4" name="message" placeholder="Message"> <br>
+            <span id="error4"></span>
+
+            <label for="address" class="c5">Address</label> 
+            <input type="text" id="all5" name="address" placeholder="Address"> <br>
+            <span id="error5"></span>
+
+            <label for="telNo" class="c6">Phone number:</label>
+            <input id="all6" name="telNo"  type="number" minlength="10" maxlength="8"/>
+            <label for="password" class="c7">Password</label> 
+            <input type="password" id=" all7" name="password" minlength="8" required placeholder="Password"> <br> <br>
+            <div class="btn">
+            <button id="btn" type="button"  onclick=" return validateform()">submit</button>
+
+            </div>
+        </form>
+        </div>
+    
+<script type="text/javascript" src="script.js"></script> 
+
+</body>
+</html>
